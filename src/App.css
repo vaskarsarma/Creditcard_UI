@@ -1,0 +1,43 @@
+.App {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  padding-top: 30px;
+}
+
+.form-control {
+  border: 1px solid #6c757d;
+  border-radius: 1px !important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+  width: 100%;
+  color: white;
+  margin: 8px 0;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 1px !important;
+}
+
+.table thead tr{
+  background-color: #ccc
+}
+
+.table-bordered td,.table-bordered th {
+  border: 2px solid #ddd !important;
+}
+
+.table td, .table th {
+  padding: 2px !important
+}
+
+.formText{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.errorLabel{
+  color: red;
+}

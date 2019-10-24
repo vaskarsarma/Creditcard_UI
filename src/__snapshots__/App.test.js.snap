@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h3>
+        Credit Card System
+      </h3>
+    </div>
+    <div
+      className="row"
+    >
+      <h4>
+        Add
+      </h4>
+    </div>
+    <div
+      className="row"
+    >
+      <form
+        className="form-horizontal ccForm"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="control-label formText"
+            htmlFor="cardHolderName"
+          >
+            Name
+          </label>
+          <input
+            className="form-control"
+            id="cardHolderName"
+            maxLength="100"
+            name="cardHolderName"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="control-label formText"
+            htmlFor="cardNumber"
+          >
+            Card Number
+          </label>
+          <input
+            className="form-control"
+            id="cardNumber"
+            maxLength="19"
+            name="cardNumber"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="control-label formText"
+            htmlFor="cardLimit"
+          >
+            Limit
+          </label>
+          <input
+            className="form-control"
+            id="cardLimit"
+            maxLength="10"
+            name="cardLimit"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn-sm col-xs-6 col-sm-6"
+            onClick={[Function]}
+            type="submit"
+          >
+            Add
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h4>
+        Existing Cards
+      </h4>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="table-responsive"
+      >
+        <table
+          className="table table-bordered"
+        >
+          <thead>
+            <tr>
+              <th
+                className="formText"
+              >
+                Name
+              </th>
+              <th
+                className="formText"
+              >
+                Card Number
+              </th>
+              <th
+                className="formText"
+              >
+                Balance
+              </th>
+              <th
+                className="formText"
+              >
+                Limit
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colSpan="4"
+              >
+                No Data Available
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
